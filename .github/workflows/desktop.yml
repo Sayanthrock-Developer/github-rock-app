@@ -1,0 +1,1 @@
+name: Desktop CI\non: [push]\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - run: echo "Desktop"
